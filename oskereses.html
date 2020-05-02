@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<title> Kutass Te is! - Családfakutatásom </title>
+		<link href="oskereses.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<header>
+			<nav id="tartalomraugras">
+		<p><a href="#tartalom"> Ugrás a tartalomra</a></p>
+		</nav>
+		<nav class="imgnav">
+	<img class="banner" src="elokep.jpg" alt="Egy anykönyvi bejegyzés">
+	<ul>
+	<li><a href="index.html">Kezdőlap</a></li>
+	<li><a href="kutatas.html">Kutatás menete</a></li>
+	<li><a href="eredmenyek.html">Eredmények</a></li>
+	<li><a class="active" href="oskereses.html">Kutass te is!</a></li>
+	</ul>
+    </nav>
+	</header>
+    <div class="wrapper">
+		<aside class="sidebar">
+			<figure>
+			<video width="200" controls poster="poster.jpg">
+			<source src="hello.mp4" type="video/mp4">
+			</video>
+			<a href="video.html" target="_blank">
+			<figcaption>
+				Egy üdvözlő videó
+			</figcaption>
+			</a>
+			</figure>
+			<div class="box">
+			<h3><i>Üdvözöllek!</i></h3> <p>Ozsvárt Milán vagyok, 22 éves, nagyjából három éve foglalkozom családfakutatással.</p> <p>Mindig is érdekelt, hogy honnan származom, sokszor gondolkodtam azon, vajon egy nagy nemesi család sarja vagyok-e (nem egészen :D). </p><p>Először a családnevemet szerettem volna felkutatni, kíváncsi voltam, honnan ered, és innen indult a kutatás. Aztán ez kibővült az egész családomra, anyai és apai ágra egyaránt.</p> <p>Rengeteg időt fektettem abba, hogy felkutassam a családom, és számomra megérte ezt az energiát ráfordítani.</p>
+			</div>
+			</aside>
+			<div class="content" id="tartalom">
+				<h2>Őskeresés</h2>
+				<p>Ha szeretnéd beindítani a kutatásod, de nem találod az első láncszemed, akitől elindíthatnád a kutatást, vagy kíváncsi vagy, mit sikerül kideríteni róla, akkor kérlek töltsd ki az alábbi űrlapot.</p>
+				<form action="mailto:milan.ozsvart@gmail.com" method="POST" enctype="text/plain">
+				<fieldset class="urlap">
+					<legend>Keresett személy adatai</legend>
+					<label for="vnev">Keresett személy vezetékneve</label> <br>
+					<input type="text" name="vnev" id="vnev" size="60"> <br>
+					<label for="knev">Keresett személy keresztneve</label> <br>
+					<input type="text" name="knev" id="knev" size="60"> <br>
+					<label for="szulido">Keresett személy szülétesi ideje</label> <br>
+					<input type="text" name="szulido" id="szulido" size="60"> <br>
+					<label for="varos">Keresett személy születési helye</label> <br>
+					<input type="text" name="varos" id="varos" size="60"> <br>
+					<input type="radio" name="vallas" id="rk" value="rk"> <label for="rk">római katolikus</label>
+					<input type="radio" name="vallas" id="ref" value="ref"> <label for="ref">református</label>
+					<input type="radio" name="vallas" id="ev" value="ev"> <label for="ev">evangélikus</label> <br>
+					<input type="radio" name="vallas" id="izr" value="izr"> <label for="izr">izraelita</label>
+					<input type="radio" name="vallas" id="gk" value="gk"> <label for="gk">görög katolikus</label>
+					<input type="radio" name="vallas" id="ox" value="ox"> <label for="ox">ortodox</label> <br>
+					<label for ="egyeb">Egyéb hasznos információ</label> <br>
+					<textarea cols="60" rows="10" name="egyeb" id="egyeb" placeholder="Házastárs neve, utolsó ismert lakhely, testvérek száma, stb..."></textarea>
+				</fieldset>
+				<fieldset>
+					<legend>Személyes adataid</legend>
+					<label for="mail">E-mail címed</label> <br>
+					<input type="email" name="mail" id="mail" size="60"> <br>
+					<input type="checkbox" name="hirlevel" id="hirlevel" value="igen">
+					<label for="hirlevel">Szeretnék értesülni családfakutatós tippekről, trükkökről.</label>
+				</fieldset>
+				<fieldset>
+					<legend>Adatok elküldése</legend>
+					<input type="submit" value="Küldés">
+					<input type="reset" value="Törlés">
+				</fieldset>
+				</form>
+						</div>
+						</div>
+					<footer>
+							<p>A weblapot készítette Ozsvárt Milán</p>
+							<p>E-mail cím: milan.ozsvart@gmail.com</p>
+							<p>ELTE IK Webfejlesztés 1. 2020.</p>
+							</footer>
+	</body>
+</html>
+
+
